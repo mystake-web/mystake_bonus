@@ -1,0 +1,139 @@
+body {
+  background-image: url("img.png");
+  background-color: #e7e7ee!important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+
+.login {
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto;
+  padding: 20px;
+  width: 310px;
+  background: rgba(18, 18, 22, 0.938);
+  border-radius: 8px;
+}
+
+.login:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.login h1 {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  background: #02020200;
+  border-left: 5px solid rgba(121, 163, 240, 0);
+  border-radius: 4px;
+}
+
+.login p {
+  margin: 20px 0 0;
+}
+
+.login p:first-child {
+  margin-top: 0;
+}
+
+.login input[type=text],
+.login input[type=password] {
+  width: 278px;
+}
+
+.login p.remember_me {
+  float: left;
+  line-height: 31px;
+}
+
+.login p.remember_me label {
+  font-size: 12px;
+  color: rgb(61, 24, 24);
+  cursor: pointer;
+}
+
+.login p.remember_me input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.login p.submit {
+  text-align: right;
+}
+
+.login-help {
+  margin: 20px 0;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+.login-help a {
+  color: #cce7fafd;
+  text-decoration: none;
+}
+
+.login-help a:hover {
+  text-decoration: underline;
+}
+
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+  font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text],
+input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #f5f0f0;
+  background: rgba(255, 255, 255, 0.103);
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  outline-offset: 0;
+}
+
+input[type=Submit] {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 7px;
+  text-align: center;
+  background-color: #ff172d;
+  color: rgb(255, 255, 255);
+}
+
+.lt-ie9 input[type=text],
+.lt-ie9 input[type=password] {
+  line-height: 34px;
+}
